@@ -16,7 +16,7 @@ class CashRegister
   
   def apply_discount
     self.total *= (1 - discount)
-    puts "Success"
+    puts "After the discount, the total comes to $#{self.discount}"
   end
   
   def items
