@@ -5,7 +5,7 @@ class CashRegister
     @total = 0
     @discount = discount
     @items = []
-    @last_item = {}
+    @last_item_amount = 0
   end
   
   def total
